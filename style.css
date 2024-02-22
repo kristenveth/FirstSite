@@ -1,0 +1,71 @@
+body{
+    color: #194a7a;
+    background-color: #d1dbe4;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+} 
+header{
+        background-color: #7593af;
+        margin: 0;
+        padding: 0;
+}
+nav{
+    background-color: #194a7a;
+    padding: 1.5rem;
+
+}
+footer{
+    background-color: #194a7a;
+    color: #d1dbe4;
+    padding: 1rem 0 ; /*TRBL*/
+}
+footer p{
+    text-align:center;
+    font-style: italic;
+    font-weight: bold;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 4rem;
+}
+
+main h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px white;
+}
+/*link color*/
+a{
+    color:#476f95
+    text-decoration: none;
+}
+   /*If you put your mouse over the link*/
+   a:hover{
+    
+    color:#7593af;
+    text-decoration: underline;
+}
+nav a{
+    color:#d1dbe4;
+}
+nav a:hover{
+    color:white;
+}
+
+main .right{
+    float: right;
+    margin-right: 2rem
+}
+main{
+    max-width: 40rem;
+    margin: auto;
+}
+/*The color of the link when you have already visited the page
+a:visted{
+
+/*The second that you click, but have yet to unclick*/
+a:active{
+
+
+}
+
